@@ -19,7 +19,21 @@
     <!-- START: Category -->
     <div class="card mt-4 mb-4">
       <div class="card-body">
-<center>KUMPULAN TOOL BANTUAN</center>
+<center><h2> TOOL BANTUAN</h2></center>
+
+<script>
+// mulai........... 
+var waktu=new Date()
+var tahun=waktu.getFullYear()
+var hari=waktu.getDay()
+var bulan=waktu.getMonth()
+var tanggal=waktu.getDate()
+if (tanggal < 7) {tanggal="0"+tanggal} 
+var hariarray=new Array("Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu")
+var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember")
+document.write(hariarray[hari]+", "+tanggal+" "+bulanarray[bulan]+"  "+tahun)
+</script>
+
       </div>
     </div>
     <!-- END: Category -->
@@ -45,6 +59,12 @@
 <tr>
 <td>Kapwing</td>
 <td>https://www.kapwing.com/tools</td>
+<tr>
+
+<td> Marketing Tool</td>
+<td>https://saijogeorge.com/best-marketing-tools/</td>
+
+</tr>
 
 </tr>
         </tbody>
@@ -54,6 +74,12 @@
     <!-- END: Data Transaksi Terakhir -->
   
   </div>
+
+
+
+			
+
+
 
 
 </body>
