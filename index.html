@@ -13,16 +13,25 @@
 
   </style>
 </head>
-	<style>
-        .social-icon {
-            width: 50px;
-            height: 50px;
-            display: inline-block;
-            background-color: #3b5998; /* Facebook Blue */
+	 <style>
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
             border-radius: 50%;
-            background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png'); /* Replace with your icon URL */
-            background-size: cover;
-            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        .facebook { background-color: #3b5998; background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png'); }
+        .twitter { background-color: #1da1f2; background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png');  }
+        .telegram { background-color: #0088cc; background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png'); }
+        .whatsapp { background-color: #25D366; background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png'); }
+        .social-icons a:hover {
+            opacity: 0.8;
         }
     </style>
 	
@@ -47,7 +56,11 @@
   document.write(hariarray[hari]+", "+tanggal+" "+bulanarray[bulan]+"  "+tahun)
   </script></marquee>
 
-	      <div class="social-icon"></div>
+	       <div class="social-icons">
+        <a href="https://www.facebook.com" class="facebook" target="_blank">F</a>
+        <a href="https://www.twitter.com" class="twitter" target="_blank">T</a>
+        <a href="https://telegram.org" class="telegram" target="_blank">T</a>
+        <a href="https://www.whatsapp.com" class="whatsapp" target="_blank">W</a>
       </div>
     </div>
     <!-- END: Category -->
