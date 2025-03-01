@@ -6,41 +6,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media Icons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
         .social-icons {
-            list-style: none;
-            padding: 0;
-        }
-        .social-icons li {
-            display: inline;
-            margin: 0 15px;
+            text-align: center;
+            margin-top: 50px;
         }
         .social-icons a {
-            text-decoration: none;
-            font-size: 24px;
+            margin: 0 15px;
+            font-size: 30px;
             color: #333;
             transition: color 0.3s;
         }
         .social-icons a:hover {
-            color: #0077cc;
+            color: #007bff;
         }
     </style>
 </head>
 <body>
-    <ul class="social-icons">
-        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
-    </ul>
+
+    <div class="container">
+        <h1 class="text-center mt-5">Connect with Me</h1>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
